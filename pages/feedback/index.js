@@ -1,6 +1,6 @@
 import { buildFeedbackPath, extractFeedback } from '../api/feedback'
 import { useState } from 'react'
-import { Fragment } from 'react/cjs/react.production.min'
+import { Fragment } from 'react/cjs/react'
 function feedbackPage(props) {
     const [feedbackData, setFeedbackData ] = useState()
     function loadFeedbackHandler(id) {
